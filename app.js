@@ -1,15 +1,33 @@
-//functions and parameters
+//3 concatenation
+const name = "jonathan"
+
+
+console.log(`My name is ${}`)
+
+
+//2 functions and parameters
 
 
 
-function nameChange(name){
+// function nameChange(name){
 
-   console.log( name == "jonathan bleibdrey"? "hes the man" : "not a good person")
-}
+//    console.log( name == "jonathan bleibdrey"? name.toUpperCase() : "Not a Good Person".toLowerCase())
+// }
 
-nameChange("jonathan bleibdrey")
+// function add(num1, num2){
+    
+//     const total =  num2/num1
 
-// varibales and data
+//    return total
+// }
+
+
+// console.log("total:", add(10,20))
+
+// nameChange( "jonathan bleibdrey")
+
+
+// 1 varibales and data
 
 // var life = 100;
 // life = life - 20
