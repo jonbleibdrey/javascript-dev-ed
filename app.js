@@ -1,3 +1,55 @@
+//8 dom manipulation
+// const text = document.querySelector(".title");
+// const button = document.querySelector(".button");
+const userList = document.querySelector(".name-list");
+const listInput = document.querySelector(".input");
+const addListBtn = document.querySelector(".add-list");
+
+// button.addEventListener("click", function () {
+//   //text.classList.toggle("change")
+//   console.log(text.classList);
+// });
+
+addListBtn.addEventListener("click", function () {
+  // create an li
+  const newLi = document.createElement("LI");
+  const liContent = document.createTextNode(listInput.value);
+  //add input value
+  newLi.appendChild(liContent);
+  //attach to the user lsit
+  userList.appendChild(newLi);
+});
+
+// for (user of userList) {
+//   user.addEventListener("click", function () {});
+// }
+
+// console.log(listInput);
+// console.log(text.innerText);
+// console.log((text.style.backgroundColor = "red"));
+// console.log(button.innerText);
+
+//7 for loop and while loop
+// let loading = 0;
+
+// while (loading < 100) {
+//   console.log(loading);
+
+//   loading ++;
+// }
+
+// const names = ["ed", "jonathan", "henry", "mr man", "caca"]
+
+// for(name of names){
+//     if(name === "jonathan"){
+//         console.log("fuck yea");
+//         break;
+//     }else{
+//         console.log("loser")
+
+//     }
+// }
+
 //6 objects and keyword this
 
 // const user = {
@@ -13,7 +65,6 @@
 // function apples(){
 //     console.log("apples")
 // }
-
 
 // user.sayName()
 
