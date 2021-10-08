@@ -1,8 +1,26 @@
+//5 arrays
+
+const cars = ["bmw", "toyota", "honda"]
+
+console.log(cars)
+
+//4 if else statment
+// const age = 9
+
+// if (age >= 20 || age <= 10) {
+//     console.log("you are of age, welcome in!")
+
+// }else{
+//     console.log("you are not of age!")
+
+// }
+
 //3 concatenation
-const name = "jonathan"
+// const name = "jonathan"
+// const age =  123
 
 
-console.log(`My name is ${}`)
+// console.log(`My name is ${name} and i am ${age}`)
 
 
 //2 functions and parameters
